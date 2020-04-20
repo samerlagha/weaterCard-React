@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather+Sans&display=swap');
-.App{
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Fira+Sans&display=swap");
+
+.App {
   margin: 0 auto;
-  color:white;
+  color: white;
   display: flex;
+  width: 800px;
 }
+

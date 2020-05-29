@@ -29,15 +29,18 @@ const WeatherCard = ({ temp, condition, city, country }) => {
     )`;
   }
   const Card = styled.div`
-    margin: 0 auto;
+     display: flex;
+
+     margin: 0 auto; 
+     margin-left:5px;
     background: ${bg};
     width: 200px;
     height: 240px;
-    display: flex;
-    flex-direction: column;
+   
+    flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 15px; 
   `;
 
   return (
